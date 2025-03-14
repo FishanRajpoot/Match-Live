@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=550 height=800 tabindex="-1" style="width: 550px; height: 800px; background: #231F20"></canvas>
-    <script src="Build/Match-TESTING.loader.js"></script>
+    <script src="Build/Match Live.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/Match-TESTING.data.gz",
-        frameworkUrl: "Build/Match-TESTING.framework.js.gz",
-        codeUrl: "Build/Match-TESTING.wasm.gz",
+        dataUrl: "Build/Match Live.data.gz",
+        frameworkUrl: "Build/Match Live.framework.js.gz",
+        codeUrl: "Build/Match Live.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Match 3-Fishan",
